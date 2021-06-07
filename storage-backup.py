@@ -9,7 +9,7 @@ def get_all_paths(directory):
     
     file_paths = []
     
-    for root, files in os.walk(directory):
+    for root, directories, files in os.walk(directory):
         for filename in files:
             filepath = os.path.join(root,filename)
             file_paths.append(filepath)
