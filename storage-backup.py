@@ -31,9 +31,9 @@ def main():
             zip.write(file)
     print("\nbackup.zip zipped successfully!\n")
 
+main()
 
-if __name__ == "__main__":
-    main()
+
 
 host = input("Hostname: ")
 port = 2222
